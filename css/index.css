@@ -1,0 +1,1542 @@
+@import url(base.css);
+/*head开始*/
+.head{
+	width: 100%;
+	height: 195px;
+}
+/*sitenav开始*/
+.head .sitenav{
+	width: 100%;
+	height: 34px;
+	background: #EEE;
+	border-bottom: 1px solid #fff;
+}
+.head .sitenav .inner{
+	width: 1190px;
+	height: 34px;
+	margin: 0 auto;
+}
+.head .sitenav .inner .left{
+	float: left;
+	width: 332px;
+	height: 34px;
+	padding-left: 4px;
+}
+.head .sitenav .inner .right{
+	float: right;
+	width: 490px;
+	height: 34px;
+}
+.head .sitenav .inner li{
+	float: left;
+	color: #666;
+	line-height: 34px;
+	padding: 0 5px;
+}
+.head .sitenav .inner li a{
+	display: block;
+	float: left;
+	height: 34px;
+	color: #666;
+}
+.head .sitenav .inner li a:hover{
+	color: #E5004F;
+}
+.head .sitenav .inner .left li a{
+	padding-left: 30px;
+}
+.head .sitenav .inner .left li #homePage{
+	background: url(../images/head/sitenav/1.png) no-repeat -220px 7px;
+}
+.head .sitenav .inner .left li #weixin{
+	background: url(../images/head/sitenav/1.png) no-repeat -220px -50px;
+}
+.head .sitenav .inner .left li .phone{
+	width: 60px;
+	height: 28px;
+	padding-right: 10px;
+	overflow: hidden;
+	background: url(../images/head/sitenav/phone.png) no-repeat 12px 8px;
+}
+.head .sitenav .inner .right .login span{
+	display: block;
+	float: left;
+}
+.head .sitenav .inner .right .login a{
+	margin-left: 10px;
+}
+.head .sitenav .inner .separator{
+	color: #ccc;
+}
+.head .sitenav .inner .left .jt1{
+	position: relative;
+	padding-right: 15px;
+}
+.head .sitenav .inner .left .jt2{
+	position: relative;
+}
+.head .sitenav .inner .sanjiao{
+	width: 9px;
+	height: 5px;
+	background: url(../images/head/sitenav/jt.png) no-repeat -1px -2px;
+}
+.head .sitenav .inner .left .jt1 .sanjiao{
+	position: absolute;
+	left: 65px;
+	top: 15px;
+}
+.head .sitenav .inner .left .jt2 .sanjiao{
+	position: absolute;
+	left: 90px;
+	top: 15px;
+}
+.head .sitenav .inner .right .my-yt{
+	position: relative;
+	padding-right: 12px;
+}
+.head .sitenav .inner .right .my-yt .sanjiao{
+	position: absolute;
+	left: 55px;
+	top: 15px;
+}
+/*sitenav结束*/
+/*topnav开始*/
+.head .topnav{
+	width: 1190px;
+	height: 120px;
+	margin: 0 auto;
+	border: 1px solid rgba(0,0,0,0);
+}
+.head .topnav .logo{
+	display: block;
+	float: left;
+	width: 215px;
+	height: 76px;
+	margin-top: 22px;
+	background: url(../images/head/topnav/logo.gif) no-repeat ;
+}
+.head .topnav .type{
+	float: left;
+	width: 145px;
+	height: 80px;
+	margin-top: 20px;
+}
+.head .topnav .type .line{
+	float: left;
+	width: 1px;
+	height: 70px;
+	margin-top: 5px;
+	background: #EFEFEF;
+	margin-left: 10px;
+	_margin-left: 5px;
+}
+.head .topnav .type .pic{
+	float: left;
+	width: 120px;
+	height: 80px;
+	margin-left: 10px;
+	background: url(../images/head/topnav/type.gif) no-repeat;
+}
+.head .topnav .search{
+	float: left;
+	width: 498px;
+	height: 60px;
+	margin-top: 40px;
+	margin-left: 154px;
+}
+.head .topnav .search .bar{
+	width: 494px;
+	height: 30px;
+	border: 2px solid #323333;
+}
+.head .topnav .search .bar input{
+	display: block;
+	float: left;
+	width: 440px;
+	height: 30px;
+	padding: 0 5px;
+	border: 0;
+	color: #888;
+	line-height: 30px;
+}
+.head .topnav .search .bar .btn{
+	float: left;
+	width: 44px;
+	height: 30px;
+	background: #323333 url(../images/head/sitenav/1.png) no-repeat 0 -80px;
+}
+.head .topnav .search .hotword{
+	width: 498px;
+	height: 18px;
+	margin-top: 8px;
+}
+.head .topnav .search .hotword a{
+	display: block;
+	float: left;
+	height: 18px;
+	margin-right: 12px;
+	color: #888;
+}
+.head .topnav .search .hotword a:hover{
+	color: #E5004F;
+	text-decoration: underline;
+}
+.head .topnav .search .hotword .red{
+	color: #E5004F;
+}
+.head .topnav .shop{
+	display: block;
+	float: left;
+	width: 160px;
+	height: 34px;
+	margin-top: 40px;
+	margin-left: 18px;
+	background: #323333 url(../images/head/sitenav/1.png) no-repeat -55px -76px;
+	position: relative;
+}
+.head .topnav .shop span{
+	display: block;
+	color: #fff;
+	line-height: 34px;
+	padding-left: 50px;
+}
+.head .topnav .shop span strong{
+	color: #E5004F;
+	padding: 0 5px;
+}
+.head .topnav .shop .sanjiao{
+	width: 7px;
+	height: 4px;
+	background: url(../images/head/sitenav/1.png) no-repeat -189px -111px;
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+/*topnav结束*/
+/*mainnav开始*/
+.head .mainnav{
+	width: 1190px;
+	height: 39px;
+	margin: 0 auto;
+}
+.head .mainnav .left{
+	display: block;
+	float: left;
+	width: 210px;
+	height: 39px;
+	background: #222;
+	text-align: center;
+	line-height: 39px;
+	font-size: 18px;
+	color: #fff;
+}
+.head .mainnav .middle{
+	float: left;
+	width: 522px;
+	height: 36px;
+	margin-left: 20px;
+}
+.head .mainnav .middle a{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 36px;
+	font-size: 16px;
+	color: #323333;
+	padding: 0 25px;
+	position: relative;
+}
+.head .mainnav .middle a .red{
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	background: #E5004F;
+	display: none;
+}
+.head .mainnav .middle .a1{
+	_padding-left: 12.5px;
+}
+.head .mainnav .right{
+	float: right;
+	width: 149px;
+	height: 39px;
+}
+.head .mainnav .right a{
+	display: block;
+	float: left;
+	width: 56px;
+	height: 19px;
+	margin: 10px 8px 0;
+	font-size: 14px;
+	color: #666;
+	line-height: 19px;
+}
+
+/*有点兼容性问题？*/
+.head .mainnav .right .a1{
+	_margin-left: 4px;
+	/*_margin-right: 4px;*/
+}
+.head .mainnav .right .a2{
+	_margin-left: 4px;
+	_margin-right: 4px;
+}
+.head .mainnav .right .seperator{
+	float: left;
+	line-height: 39px;
+	color: #DBCBDB;
+}
+.head .mainnav a:hover{
+	color: #E5004F;
+}
+.head .mainnav .left:hover{
+	color: #fff;
+}
+/*mainnav结束*/
+/*head结束*/
+ /*main开始*/
+ .main{
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ /*banner开始-----------------------------------------------------------------*/
+.window{
+	width: 100%;
+	height: 470px;
+	position: relative;
+	border-top: 1px solid #2D2E2E;
+
+}
+.window .box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.window .box li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.window .box .bj1{
+	background: url(../images/main/window/bj/1.jpg) no-repeat -285px 0;
+}
+.window .box .bj2{
+	background: url(../images/main/window/bj/2.jpg) no-repeat -285px 0;
+}
+.window .box .bj3{
+	background: url(../images/main/window/bj/3.jpg) no-repeat -285px 0;
+}
+.window .box .bj4{
+	background: url(../images/main/window/bj/4.jpg) no-repeat -285px 0;
+}
+.window .box .bj5{
+	background: url(../images/main/window/bj/5.jpg) no-repeat -285px 0;
+}
+.window .box li a{
+	display: block;
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+}
+.window .box li a img{
+	width: 100%;
+	height: 100%;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.window .cirs{
+	width: 155px;
+	height: 8px;
+	position: absolute;
+	bottom: 25px;
+	left: 600px;
+	z-index: 20;
+}
+.window .cirs li{
+	float: left;
+ 	width: 30px;
+ 	height: 8px;
+ 	background: #211616;
+ 	margin-right: 1px;
+}
+
+/*------------------------------------------------------------------------*/
+.window .button{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -30px;
+	z-index: 30;
+	opacity: 0.7;
+	display: none;
+}
+.window .button div{
+	width: 30px;
+	height: 100%;
+	cursor: pointer;
+}
+.window .btnL{
+	float: left;
+	margin-left: 290px;
+	background: url(../images/main/window/btn.png) 0 0;
+}
+.window .btnR{
+	float: right;
+	margin-right: 290px;
+	background: url(../images/main/window/btn.png) right 0;
+}
+.window .btnL:hover{
+	background: url(../images/main/window/btn.png) 0 60px;
+}
+.window .btnR:hover{
+	background: url(../images/main/window/btn.png) right 60px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.window .s{
+	width: 200px;
+	height: 470px;
+	position: absolute;
+	right: 80px;
+	top: 0;
+	z-index: 20;
+}
+.window .s a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.window .s a img{
+	width: 100%;
+	height: 100%;
+}
+
+/*---------------------------------------------------------------*/
+.window .type{
+ 	width: 210px;
+ 	height: 470px;
+ 	background: #515151;
+ 	position: absolute;
+ 	left: 80px; 
+	/*调兼容性？*/
+ 	_left: 74px; 
+ 	top: 0;
+ 	z-index: 40;
+ } 
+ .window .type li{
+ 	width: 210px;
+ 	height: 46px;
+	margin-bottom: 1px;
+ 	background: #333;
+}
+.window .type li .mulu{
+	width: 210px;
+ 	height: 30px;
+ 	padding-top: 16px;
+}
+ .window .type li:hover .mulu{
+ 	background: #E5004F;
+ }
+ .window .type li .mulu a{
+ 	color: #fff;
+ }
+ .window .type li .mulu .category{
+ 	display: block;
+ 	float: left;
+ 	width: 32px;
+ 	height: 20px;
+ 	padding-left: 7px;
+ 	text-align: center;
+ 	line-height: 20px;
+ 	font-size: 16px;
+ }
+ .window .type li .mulu .icon{
+ 	width: 17px;
+ 	height: 17px;
+ 	float: left;
+ 	margin-left: 18px;
+ }
+ .window .type li .mulu .icon1{
+ 	background: url(../images/main/window/icon.png) 0 -108px;
+ } 
+ .window .type li .mulu .icon2{
+ 	background: url(../images/main/window/icon.png) -17px -108px;
+ }
+ .window .type li .mulu .icon3{
+ 	background: url(../images/main/window/icon.png) -34px -108px;
+ }
+ .window .type li .mulu .icon4{
+ 	background: url(../images/main/window/icon.png) -51px -108px;
+ }
+ .window .type li .mulu .icon5{
+ 	background: url(../images/main/window/icon.png) -68px -108px;
+ }
+ .window .type li .mulu .icon6{
+ 	background: url(../images/main/window/icon.png) -85px -108px;
+ }
+ .window .type li .mulu .icon7{
+ 	background: url(../images/main/window/icon.png) -102px -109px;
+ }
+ .window .type li .mulu .icon8{
+ 	background: url(../images/main/window/icon.png) -119px -111px;
+ }
+ .window .type li .mulu .icon9{
+ 	background: url(../images/main/window/icon.png) -136px -108px;
+ }
+ .window .type li .mulu .icon10{
+ 	background: url(../images/main/window/icon.png) -153px -108px;
+ }
+.window .type li .mulu .seperator{
+	display: block;
+	float: left;
+	width: 1px;
+	height: 16px;
+	background: #666;
+	line-height: 16px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.window .type li .mulu .hot{
+	display: block;
+	float: left;
+	/*width: 50px;*/
+	height: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+.window .type li .mulu .hot:hover{
+	text-decoration: underline;
+}
+.window .type li .mulu .jt{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+.window .type li:hover .mulu .jt{
+ 	display: none;
+ }
+.window .type li .detail{
+	width: 495px;
+	height: 460px;
+	padding-bottom: 10px;
+	position: absolute;
+	left: 210px;
+	top: 0;
+	z-index: 100;
+	display: none;
+}
+.window .type li .detail .kind{
+	float: left;
+	width: 295px;
+	height: 452px;
+	padding: 8px 20px 0;
+	background: #333;
+	opacity: 0.97;
+}
+.window .type li .detail .kind li{
+	width: 100%;
+	height: auto;
+	line-height:20px; 
+	border-bottom: 1px dotted #666;
+	padding: 8px 0px 7px 0px;
+}
+.window .type li .detail .kind li .tit a{
+	font-size: 14px;
+	color: #fff;
+}
+.window .type li .detail .kind li .tit a:hover{
+	color: #e5004f;
+}
+.window .type li .detail .kind li .con a{
+	font-size: 12px;
+	color: #fff;
+	margin-right: 10px;
+}
+.window .type li .detail .kind li .con a:hover{
+	color: #e5004f;
+}
+.window .type li .detail .kind li .con .red{
+	color: #e5004f;
+}
+.window .type li .detail .brand{
+	float: left;
+	width: 145px;
+	height: 445px;
+	padding: 15px 0 0 15px;
+	background: #000;
+	opacity: 0.97;
+}
+.window .type li .detail .brand .tit{
+	width: 130px;
+	height: 26px;
+	border-bottom: 1px dotted #666;
+	line-height: 26px;
+	color: #fff;
+	font-size: 14px;
+}
+.window .type li .detail .brand .con a{
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	color: #fff;
+}
+.window .type li .detail .brand .con a:hover{
+	color: #e5004f;
+}
+
+/*banner结束----------------------------------------------------------------------------------------*/
+
+/*travel开始*/
+.main .travel{
+	width: 1190px;
+	height: 391px;
+	margin: 30px auto 0;
+	background: url(../images/main/travel/map.jpg);
+	position: relative;
+}
+.main .travel .pos{
+	width: 184px;
+	height: 86px;
+}
+.main .travel .europe{
+	background: url(../images/main/travel/europe.png) no-repeat;
+	position: absolute;
+	left: 146px;
+	top: 98px;
+	z-index: 10;
+}
+.main .travel .beach{
+	background: url(../images/main/travel/beach.png) no-repeat;
+	position: absolute;
+	right: 150px;
+	top: 155px;
+	z-index: 10;
+}
+.main .travel .mountain{
+	background: url(../images/main/travel/mountain.png) no-repeat;
+	position: absolute;
+	left: 138px;
+	bottom: 0px;
+	z-index: 10;
+}
+.main .travel .park{
+	background: url(../images/main/travel/park.png) no-repeat;
+	position: absolute;
+	right: 330px;
+	bottom: 5px;
+	z-index: 10;
+}
+/*travel结束*/
+
+/*推荐--->选项卡开始-------------------------------------------------------------------------*/
+.main .recommend{
+	width: 1190px;
+	height: 325px;
+	margin: 30px auto 0;
+}
+.main .recommend .xxk{
+	float: left;
+	width: 910px;
+	height: 324px;
+}
+.main .recommend .xxk .title{
+	width: 910px;
+	height: 52px;
+}
+/*必须设置li的宽高，否则在IE6中会出问题*/
+.main .recommend .xxk .title li{
+	float: left;
+	width: 33.3%;
+	height: 52px;
+	/*background: blue;*/
+	position: relative;
+}
+.main .recommend .xxk .title li .sanj{
+	position: absolute;
+	width: 7px;
+	height: 4px;
+	left: 143px;
+	top: 43px;
+	background: yellow url(../images/main/recommend/left/jt.png) 0 -16px no-repeat;
+	display: none;
+}
+.main .recommend .xxk .title .term{
+	display: block;
+	width: 303px;
+	height: 47px;
+	border-bottom: 5px solid #333;
+	text-align: center;
+	line-height: 47px;
+	color: #000;
+	font-size: 16px;
+}
+.main .recommend .xxk .con{
+	width: 920px;
+	height: 262px;
+	margin-top: 10px;
+	position: relative;
+}
+.main .recommend .xxk .con ul{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main .recommend .xxk .con ul li{
+	float: left;
+	width: 220px;
+	height: 264px;
+	margin-right: 10px;
+}
+.main .recommend .xxk .con ul .xian{
+	width: 218px;
+	height: 262px;
+	border: 1px solid #eee;
+	position: relative;
+}
+
+.l{
+	width: 0px;
+	height: 1px;
+	background: #232323;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	overflow: hidden;
+}
+.t{
+	width: 1px;
+	height: 0px;
+	background: #232323;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+}
+.r{
+	width: 0px;
+	height: 1px;
+	background: #232323;
+	position: absolute;
+	right: -1px;
+	bottom: -1px;
+	overflow: hidden;
+}
+.b{
+	width: 1px;
+	height: 0px;
+	background: #232323;
+	position: absolute;
+	right: -1px;
+	bottom: -1px;
+}
+
+
+
+
+
+.main .recommend .xxk .con ul .con4{
+	_margin-right: 5px;
+}
+.main .recommend .xxk .con ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main .recommend .xxk .con ul li a img{
+	width: 100%;
+	height: 100%;
+}
+.main .recommend .xxk .con .list2 li a{
+	background: #fff;
+}
+.main .recommend .xxk .con .list2 li a img{
+	width: 150px;
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+.main .recommend .xxk .con .list2 li .ci{
+	display: block;
+	width: 210px;
+	height: 20px;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -105px;
+	text-align: center;
+	line-height: 20px;
+	color: #666;
+}
+.main .recommend .xxk .con .list2 li .ci:hover{
+	color: #E5004F;
+	text-decoration: underline;
+} 
+.main .recommend .xxk .con .list2 li p{
+	width: 210px;
+	height: 20px;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -105px;
+	line-height: 20px;
+}
+.main .recommend .xxk .con .list2 li p strong{
+	color: #E5004F;
+	font-size: 14px;
+	margin-right: 5px;
+}
+.main .recommend .xxk .con .list2 li p span{
+	color: #909090;
+}
+
+
+.main .recommend .right{
+	float: right;
+	width: 270px;
+	height: 300px;
+	padding-top: 24px;
+}
+.main .recommend .right a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main .recommend .right a img{
+	width: 100%;
+	height: 100%;
+}
+/*推荐--->选项卡结束----------------------------------------------------------------------------*/
+
+
+/*ad开始-----------------------------------------------------------------------*/
+.main .ad{
+	display: block;
+	width: 1190px;
+	height: 80px;
+	background: red;
+	margin: 30px auto 0;
+}
+.main .ad img{
+	width: 1190px;
+	height: 80px;
+	vertical-align: bottom;
+}
+ .main .ad3{
+ 	margin: 34px auto 0;
+ }
+/*ad结束-----------------------------------------------------------------------*/
+ 
+/*银泰百货--->选项卡开始-------------------------------------------------------------------------*/
+
+.main .ytbh{
+	width: 1190px;
+	height: 624px;
+	margin: 36px auto 0;
+}
+.main .ytbh .title{
+	width: 1190px;
+	height: 46px;
+	background: url(../images/main/ytbh/top/1.png) no-repeat;
+}
+.main .ytbh .con{
+	width: 1168px;
+	height: 555px;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+.main .ytbh .con .left{
+	display: block;
+	float: left;
+	width: 340px;
+	height: 555px;
+	background: url(../images/main/ytbh/left/1.jpg);
+}
+.main .ytbh .con .xxk{
+	float: right;
+	width: 815px;
+	height: 555px;
+}
+.main .ytbh .con .xxk .tit{
+	width: 815px;
+	height: 35px;
+	border-bottom: 3px solid #333;
+}
+.main .ytbh .con .xxk .tit ul{
+	width: 204px;
+	height: 38px;
+}
+.main .ytbh .con .xxk .tit ul li{
+	float: left;
+	width: 102px;
+	height: 35px;
+	border-bottom: 3px solid #333;
+	_border-bottom: 1.5px solid #333;
+	text-align: center;
+	line-height: 35px;
+	position: relative;
+}
+.main .ytbh .con .xxk .tit ul li:hover{
+	border-bottom: 3px solid #E70050;
+	_border-bottom: 1.5px solid #E70050;
+}
+.main .ytbh .con .xxk .tit ul li a{
+	color: #666;
+	font-size: 14px;
+}
+.main .ytbh .con .xxk .tit ul li a:hover{
+	color: #414141;
+	font-weight: bold;
+}
+.main .ytbh .con .xxk .tit ul li .sanjj{
+	display: block;
+	width: 7px;
+	height: 4px;
+	background: url(../images/main/ytbh/right/jt.png) no-repeat 0 -16px;
+	position: absolute;
+	left: 51px;
+	top: 31px;
+	/*先隐藏，鼠标经过时再显示*/
+	display: none;
+}
+.main .ytbh .con .xxk .pics{
+	width: 815px;
+	height: 517px;
+	position: relative;
+}
+.main .ytbh .con .xxk .pics .listt{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main .ytbh .con .xxk .pics .listt a{
+	display: block;
+	float: left;
+	margin-top: 4px;
+}
+.main .ytbh .con .xxk .pics .pic1{
+	height: 250px;
+}
+.main .ytbh .con .xxk .pics .pic2{
+	height: 260px;
+}
+.main .ytbh .con .xxk .pics .term1{
+	width: 220px;
+}
+.main .ytbh .con .xxk .pics .term2{
+	width: 365px;
+}
+.main .ytbh .con .xxk .pics .term3{
+	width: 290px;
+}
+.main .ytbh .con .xxk .pics .term4{
+	width: 240px;
+}
+.main .ytbh .con .xxk .pics .term5{
+	width: 275px;
+}
+.main .ytbh .con .xxk .pics .img1{
+	margin-right: 5px;
+}
+.main .ytbh .con .xxk .pics .img3{
+	margin-right: 0px;
+}
+.main .ytbh .con .xxk .pics .tu1{
+	background: url(../images/main/ytbh/right/1/1.jpg);
+}
+.main .ytbh .con .xxk .pics .tu2{
+	background: url(../images/main/ytbh/right/1/2.jpg);
+}
+.main .ytbh .con .xxk .pics .tu3{
+	background: url(../images/main/ytbh/right/1/3.jpg);
+}
+.main .ytbh .con .xxk .pics .tu4{
+	background: url(../images/main/ytbh/right/1/4.jpg);
+}
+.main .ytbh .con .xxk .pics .tu5{
+	background: url(../images/main/ytbh/right/1/5.jpg);
+}
+.main .ytbh .con .xxk .pics .tu6{
+	background: url(../images/main/ytbh/right/1/6.jpg);
+}
+
+.main .ytbh .con .xxk .pics .list2{
+	width: 815px;
+	height: 507px;
+	padding-top: 10px;
+} 
+
+.main .ytbh .con .xxk .pics .list2 li{
+	float: left;
+	width: 198px;
+	height: 248px;
+	border: 1px solid #eee;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	position: relative;
+}
+.main .ytbh .con .xxk .pics .list2 li .nr{
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	width: 188px;
+	height: 38px;
+	padding: 5px;
+	margin-left: -99px;
+	background: #F8F8F8;
+}
+.main .ytbh .con .xxk .pics .list2 li .nr a{
+	display: block;
+	width: 100%;
+	color: #323232;
+	text-decoration: underline;
+	text-align: left;
+}
+
+.main .ytbh .con .xxk .pics .list2 li .nr .red{
+	display: block;
+	float: left;
+	color: #e5004f;
+	text-decoration: none;
+}
+.main .ytbh .con .xxk .pics .list2 li .nr .price{
+	display: block;
+	float: right;
+	color: #a7a7a7;
+	text-decoration: line-through;
+	text-align: left;
+}
+
+.main .ytbh .con .xxk .pics .listt .list4{
+	margin-right: 0px;
+}
+
+
+/*银泰百货--->选项卡结束----------------------------------------------------------------------------*/
+
+
+
+
+/*floors开始--------------------------------------------------------------------*/
+.main .floor{
+	width: 1190px;
+	height: 418px;
+	margin: 36px auto 0;
+	/*background: pink;*/
+}
+/*------------------------------------------------------------------------------*/
+.main .floor .tit{
+	width: 1190px;
+	height: 46px;
+}
+.main .floor .tit a{
+	display: block;
+	width: 260px;
+	height: 36px;
+	background: url(../images/main/floors/floor_all.png);
+}
+.main .clnz .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -46px;
+}
+.main .jpnz .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -92px;
+}
+.main .ssxx .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -138px;
+}
+.main .clxb .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -184px;
+}
+.main .mrhf .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -230px;
+}
+.main .ydhw .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -276px;
+}
+.main .nyps .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -322px;
+}
+.main .ytjj .tit a{
+	background: url(../images/main/floors/floor_all.png) 0 -368px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+.main .floor .con{
+	width: 1190px;
+	height: 372px;
+}
+.main .floor .con .left{
+	float: left;
+	width: 228px;
+	height: 370px;
+	border: 1px solid #eee;
+}
+.main .floor .con .left .category{
+	width: 211px;
+	height: 143px;
+	margin-top: 16px;
+	margin-left: 8px;
+}
+.main .floor .con .left .category a{
+	display: block;
+	float: left;
+	width: 65px;
+	height: 30px;
+	border: 1px solid #eee;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #666;
+}
+.main .floor .con .left .category a:hover{
+	background: #E5004F;
+	color: #fff;
+}
+.main .floor .con .left .category .item1{
+	margin: 0 5px 5px 0;
+}
+.main .floor .con .left .category .item2{
+	margin-bottom: 5px;
+}
+.main .floor .con .left .category .item3{
+	margin-right: 5px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------*/
+/*楼层节点轮播开始-----------------------------------------------------------------------------------------------*/
+.main .floor .con .left .nodelb{
+	width: 200px;
+	height: 140px;
+	border-top: 1px dashed #969696;
+	margin: 29px auto 0;
+	background: #F2F2F2;
+	position: relative;
+}
+
+.main .floor .con .left .nodelb .ck{
+	width: 160px;
+	height: 105px;
+	margin: 17.5px auto 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.main .floor .con .left .nodelb .ck .hz{
+	width: 480px;
+	height: 105px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main .floor .con .left .nodelb .ck .hz li{
+	float: left;
+	width: 160px;
+	height: 105px;
+}
+.main .floor .con .left .nodelb .ck .hz li a{
+	display: block;
+	float: left;
+	width: 75px;
+	height: 50px;
+}
+.main .floor .con .left .nodelb .ck .hz li .term1{
+	margin-right: 10px;
+}
+.main .floor .con .left .nodelb .ck .hz li .term2{
+	margin-bottom: 5px;
+}
+.main .floor .con .left .nodelb .ck .hz li a img{
+	width: 100%;
+	height: 100%;
+}
+
+.main .floor .con .left .nodelb .jt{
+	width: 190px;
+	height: 139px;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	z-index: 10;
+}
+.main .floor .con .left .nodelb .jt div{
+	width: 14px;
+	height: 100%;
+	cursor: pointer;
+}
+.main .floor .con .left .nodelb .jt .jtL{
+	float: left;
+	background: #F2F2F2 url(../images/main/floors/jt.png) no-repeat 0 center;
+}
+.main .floor .con .left .nodelb .jt .jtL:hover{
+	background: #F2F2F2 url(../images/main/floors/jt.png) no-repeat -14px center;
+}
+.main .floor .con .left .nodelb .jt .jtR{
+	float: right;
+	background: #F2F2F2 url(../images/main/floors/jt.png) no-repeat -28px center;
+}
+.main .floor .con .left .nodelb .jt .jtR:hover{
+	background: #F2F2F2 url(../images/main/floors/jt.png) no-repeat -42px center;
+}
+/*楼层节点轮播结束----------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------*/
+
+/*楼层双下标轮播开始-------------------------------------------------------*/
+.main .floor .con .sxb{
+	display: block;
+	float: left;
+	width: 390px;
+	height: 370px;
+	border: 1px solid #eee;
+	margin-left: 8px;
+	position: relative;
+	overflow: hidden;
+}
+.main .floor .con .sxb img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main .floor .con .sxb .btn{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	z-index: 3;
+	opacity: 0.7;
+	display: none;
+}
+.main .floor .con .sxb .btn li{
+	width: 30px;
+	height: 100%;
+}
+.main .floor .con .sxb .btn .btnL{
+	float: left;
+	background: url(../images/main/floors/btn.png);
+}
+.main .floor .con .sxb .btn .btnR{
+	float: right;
+	background: url(../images/main/floors/btn.png) -30px 0;
+}
+.main .floor .con .sxb .btn .btnL:hover{
+	background: url(../images/main/floors/btn.png) 0 60px;
+}
+.main .floor .con .sxb .btn .btnR:hover{
+	background: url(../images/main/floors/btn.png) -30px 60px;
+}
+.main .floor .con .sxb .cirs{
+	width: 31px;
+	height: 13px;
+	position: absolute;
+	left: 50%;
+	margin-left: -15.5px;
+	bottom: 15px;
+	z-index: 10;
+}
+.main .floor .con .sxb .cirs .cir{
+	float: left;
+	width: 13px;
+	height: 13px;
+	background: #6E6E6E;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.main .floor .con .sxb .cirs .cir2{
+	margin-right: 0px;
+}
+/*楼层双下标轮播结束-------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------*/
+.main .floor .con .right{
+	float: left;
+	width: 552px;
+	height: 372px;
+	margin-left: 8px;
+}
+.main .floor .con .right a{
+	display: block;
+	float: left;
+	width: 270px;
+	height: 180px;
+	border: 1px solid #eee;
+	position: relative;
+}
+.main .floor .con .right .pic1{
+	margin-right: 8px;
+}
+.main .floor .con .right .pic2{
+	margin-bottom: 8px;
+}
+.main .floor .con .right a img{
+	width: 270px;
+	height: 180px;
+	vertical-align: bottom;
+}
+/*floors结束---------------------------------------------------------------------*/
+
+/*yt_card开始---------------------------------------------------------------------*/
+.main .yt_card{
+	width: 1190px;
+	height: 167px;
+	margin: 34px auto 0;
+	border: 1px solid #eee;
+}
+.main .yt_card a{
+	display: block;
+	float: left;
+	width: 396px;
+	height: 167px;
+}
+.main .yt_card .pic{
+	border-right: 1px solid #eee;
+}
+.main .yt_card .pic1{
+	background: url(../images/main/yt_card/1.jpg);
+}
+.main .yt_card .pic2{
+	background: url(../images/main/yt_card/2.jpg);
+}
+.main .yt_card .pic3{
+	background: url(../images/main/yt_card/3.jpg);
+}
+
+/*yt_card结束---------------------------------------------------------------------*/
+/*main结束------------------------------------------------------------------------*/
+
+/*foot开始------------------------------------------------------------------------*/
+.foot{
+	width: 1190px;
+	height: 290px;
+	margin: 40px auto 0;
+}
+
+/*tips开始------------------------------------------------------------------------*/
+.foot .tips{
+	width: 1188px;
+	height: 88px;
+	border: 1px solid #eee;
+	background: #f7f7f7;
+}
+.foot .tips li{
+	float: left;
+	height: 65px;
+}
+.foot .tips .tip1{
+	border-right: 1px solid #eee;
+}
+.foot .tips .contact{
+	width: 282px;
+	height: 68px;
+	padding: 20px 0 0 45px;
+}
+.foot .tips .contact strong{
+	font-size: 20px;
+	color: #e5004f;
+	font-weight: normal;
+	background: red;
+	padding-left: 24px;
+	background: url(../images/foot/tips/1.png) no-repeat;
+}
+.foot .tips .contact span{
+	margin-left: 25px;
+	color: #666;
+}
+.foot .tips .contact p{
+	font-size: 14px;
+	color: #888;
+	margin-top: 5px;
+	padding-left: 24px;
+	background: url(../images/foot/tips/1.png) no-repeat 0 -28px;
+}
+.foot .tips .tui{
+	width: 186px;
+	padding: 23px 0 0 100px;
+	background: url(../images/foot/tips/1.png) no-repeat 52px -56px;
+}
+.foot .tips .ensure{
+	width: 182px;
+	padding: 23px 0 0 104px;
+	background: url(../images/foot/tips/1.png) no-repeat 52px -132px;
+}
+.foot .tips .free{
+	width: 171px;
+	padding: 23px 0 0 115px;
+	background: url(../images/foot/tips/1.png) no-repeat 52px -203px;
+}
+.foot .tips li .p1{
+	font-size: 16px;
+	color: #000;
+}
+.foot .tips li .p1 span{
+	font-size: 16px;
+	color: #e5004f;
+}
+.foot .tips li .p2{
+	color: #888;
+	margin-top: 3px;
+}
+/*tips结束------------------------------------------------------------------------*/
+
+/*links开始-----------------------------------------------------------------------*/
+.foot .links{
+	width: 1190px;
+	height: 18px;
+	margin-top: 35px;
+	text-align: center;
+}
+.foot .links a{
+	color: #757575;
+	margin: 0 10px;
+}
+.foot .links a:hover{
+	color: #E5004F;
+}
+.foot .links span{
+	color: #9B669B;
+}
+/*links结束-----------------------------------------------------------------------*/
+
+/*copyright开始-------------------------------------------------------------------*/
+.foot .copyright{
+	width: 1190px;
+	height: 44px;
+	margin-top: 25px;
+}
+.foot .copyright p{
+	text-align: center;
+	color: #b2b2b2;
+}
+.foot .copyright p a{
+	text-align: center;
+	color: #b2b2b2;
+	margin-right: 6px;
+}
+.foot .copyright .p2{
+	margin-top: 5px;
+}
+/*copyright结束-------------------------------------------------------------------*/
+
+/*mark开始------------------------------------------------------------------------*/
+.foot .mark{
+	width: 359px;
+	height: 49px;
+	margin: 10px auto 0;
+}
+.foot .mark a{
+	display: block;
+	float: left;
+	height: 49px;
+	margin: 0 12px;
+}
+.foot .mark .mark1{
+	width: 112px;
+	background: url(../images/foot/mark/1.png) no-repeat 0 5px;
+	_margin-left: 6px;
+}
+.foot .mark .mark2{
+	width: 130px;
+	background: url(../images/foot/mark/2.png) no-repeat 0 1px;
+}
+.foot .mark .mark3{
+	width: 45px;
+	background: url(../images/foot/mark/3.gif) no-repeat;
+}
+/*mark结束------------------------------------------------------------------------*/
+/*foot结束------------------------------------------------------------------------*/
+
+/*rightsidebar开始----------------------------------------------------------------*/
+.rightsidebar{
+	width: 50px;
+	height: 545px;
+	position: fixed;
+	right: 25px; 
+	bottom: 20px;
+	z-index: 500;
+}
+.rightsidebar a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 5px;
+	background: #ECECEC;
+	position: relative;
+}
+.rightsidebar a div{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	background: #e5004f;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 15px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 5;
+	display: none;
+}
+.rightsidebar .term1{
+	background: url(../images/rightsidebar/floor_nav.png);
+}
+.rightsidebar .term2{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -55px;
+}
+.rightsidebar .term3{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -110px;
+}
+.rightsidebar .term4{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -165px;
+}
+.rightsidebar .term5{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -220px;
+}
+.rightsidebar .term6{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -275px;
+}
+.rightsidebar .term7{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -330px;
+}
+.rightsidebar .term8{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -385px;
+}
+.rightsidebar .term9{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -440px;
+}
+.rightsidebar .term10{
+	background: url(../images/rightsidebar/floor_nav.png) 0 -495px;
+}
+/*rightsidebar结束---------------------------------------------------------------*/
+
+/*线开始-------------------------------------------------------------------------*/
+
+/*线结束-------------------------------------------------------------------------*/
